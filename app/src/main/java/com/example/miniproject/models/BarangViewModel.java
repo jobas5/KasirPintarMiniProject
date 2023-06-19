@@ -21,6 +21,7 @@ public class BarangViewModel extends AndroidViewModel {
         allBarang = repository.getAllBarang();
     }
 
+    //Next function to do simple CRUD of Barang
     public void insert(Barang barang) {
         repository.insert(barang);
     }

@@ -25,6 +25,7 @@ public class BarangRepository {
         executor = Executors.newSingleThreadExecutor();
     }
 
+    //Next function to do CRUD of Barang
     public void insert(Barang barang) {
         executor.execute(() -> barangDao.insert(barang));
     }
