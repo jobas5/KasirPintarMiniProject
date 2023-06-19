@@ -1,8 +1,12 @@
-package com.example.miniproject;
+package com.example.miniproject.repositories;
 
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
+
+import com.example.miniproject.room.Barang;
+import com.example.miniproject.room.BarangDao;
+import com.example.miniproject.room.BarangDatabase;
 
 import java.util.List;
 import java.util.concurrent.Executor;

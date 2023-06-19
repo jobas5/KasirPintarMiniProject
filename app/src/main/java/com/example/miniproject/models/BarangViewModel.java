@@ -1,10 +1,13 @@
-package com.example.miniproject;
+package com.example.miniproject.models;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.example.miniproject.room.Barang;
+import com.example.miniproject.repositories.BarangRepository;
 
 import java.util.List;
 

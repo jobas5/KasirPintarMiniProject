@@ -1,4 +1,4 @@
-package com.example.miniproject;
+package com.example.miniproject.adapters;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.miniproject.room.Barang;
+import com.example.miniproject.DetailBarangActivity;
+import com.example.miniproject.R;
 
 import java.util.ArrayList;
 import java.util.List;

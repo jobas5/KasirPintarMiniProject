@@ -1,7 +1,6 @@
 package com.example.miniproject;
 
 import android.annotation.SuppressLint;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
@@ -14,6 +13,9 @@ import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.miniproject.adapters.BarangAdapter;
+import com.example.miniproject.models.BarangViewModel;
 
 import java.util.Objects;
 

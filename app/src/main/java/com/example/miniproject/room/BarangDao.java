@@ -1,4 +1,4 @@
-package com.example.miniproject;
+package com.example.miniproject.room;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,6 +6,8 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.example.miniproject.room.Barang;
 
 import java.util.List;
 

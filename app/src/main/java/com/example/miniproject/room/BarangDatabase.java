@@ -1,4 +1,4 @@
-package com.example.miniproject;
+package com.example.miniproject.room;
 
 import android.content.Context;
 import android.util.Log;
